@@ -1,0 +1,100 @@
+header {
+  background: url(/Team/Assets/Images/our-team.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  justify-content: space-between;
+  padding: 7px 10px;
+}
+.background {
+  background-color: #0f141e9d;
+}
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header nav ul li {
+  transition: all 0.2s ease-in-out;
+}
+.header nav ul li a {
+  color: white;
+  font-size: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  padding: 8px 0;
+}
+.h1-div {
+  text-align: center;
+  padding: 65px 0 85px 0;
+  font-family: "Mulish", sans-serif;
+}
+.h1-div h1 {
+  font-size: 23px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 5px;
+}
+.h1-div h1 span {
+  color: #ff4605;
+}
+.h1-div p {
+  font-size: 11px;
+  color: #ffffff9c;
+}
+.right-nav {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.right-nav button {
+  padding: 7px 13px;
+  border-radius: 3px;
+  font-size: 8px;
+  border: 0.5px solid #ff4605;
+  color: white;
+  background-color: rgba(128, 128, 128, 0);
+  font-family: "Mulish", sans-serif;
+  margin-top: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.logo {
+  width: 90px;
+  height: 15px;
+  margin-top: 10px;
+}
+.header .homenav ul div {
+  background: url(/Vehica/Assests/images/expand\ down.png);
+
+  background-repeat: no-repeat;
+  background-position-x: 93%;
+  background-size: 10px 10px;
+  background-position-y: 70%;
+  padding: 5px 15px;
+}
+.contact-svg {
+  height: 10px;
+  margin-top: 10px;
+}
+/* ************************************** */
+/* ************************************** */
+.header nav ul li a:hover {
+  color: #ff4605;
+}
+.header-nav ul li:hover {
+  border-top: 0.5px solid #ff4605;
+}
+.right-nav button:hover {
+  background-color: #ff4605;
+}

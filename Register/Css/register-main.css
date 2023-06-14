@@ -1,0 +1,38 @@
+.register-wrapper {
+  display: flex;
+}
+.log-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.login-wrapper {
+  background-color: #f2f5fb;
+  width: 50%;
+}
+.login h1 {
+  font-size: 15px;
+  font-weight: 800;
+  color: #222732;
+}
+.login p {
+  font-size: 8px;
+}
+.login-icon {
+  height: 12px;
+  margin-right: 6px;
+}
+.log-btn button {
+  font-size: 9px;
+}
+.login input {
+  font-size: 8px;
+  letter-spacing: 0.3px;
+  padding: 7px 10px;
+}
+.login label {
+  font-size: 9px;
+}
+input {
+  height: 10px;
+}

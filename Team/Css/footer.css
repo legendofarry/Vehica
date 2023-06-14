@@ -1,0 +1,80 @@
+footer {
+  background-color: #0f141eea;
+}
+.top-footer {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  font-family: "Mulish", sans-serif;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5px solid grey;
+  padding: 30px 0;
+  font-family: "Mulish", sans-serif;
+  align-items: center;
+}
+.top-footer nav {
+  display: flex;
+  margin: 0 0 0 8%;
+  width: 30%;
+}
+.top-footer nav ul {
+  color: #ff4605;
+  width: 50%;
+}
+.top-footer nav ul li a {
+  font-size: 9px;
+  color: white;
+}
+.top-footer p {
+  font-size: 8px;
+  color: white;
+}
+.bottom-footer p {
+  font-size: 8px;
+  color: white;
+}
+.top-footer a {
+  text-decoration: none;
+}
+.bottom-footer a {
+  color: white;
+  text-decoration: underline;
+}
+.top-footer div span {
+  color: #ff4605;
+  font-weight: 900;
+}
+.top-footer div p:first-of-type {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+  display: inline;
+}
+.top-footer p:first-of-type {
+  width: 30%;
+}
+.top-footer div p:nth-of-type(2) {
+  padding: 0 0 7px 0;
+}
+.top-footer div {
+  width: 37%;
+  text-align: right;
+}
+.top-footer div p {
+  line-height: 13px;
+}
+.top-footer-links p a {
+  color: white;
+}
+.follow-us {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.media-links {
+  display: flex;
+  gap: 7px;
+}
